@@ -1,10 +1,12 @@
 /*CSS Comment Style*/
 
 /*over rides .html stock styling for margin
-and padding*/
+and padding---border-box calc height width of elem
+by including boarder and padding additions to context*/
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*apply styles to <header>*/
@@ -56,5 +58,30 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/*sets the background color width and padding
+of the footer*/
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
 
+/* Shifts the <footer> <h2> elements center, changes
+color, font size and set the margin*/
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
 
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* sets <footer> <a> color*/
+footer a {
+    color: #024e76;
+}
